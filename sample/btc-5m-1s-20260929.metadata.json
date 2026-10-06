@@ -1,0 +1,98 @@
+{
+  "market_id": "5060604",
+  "market_url": "https://omens.market/markets/5060604",
+  "opens_at": "2026-09-29T01:55:00Z",
+  "closes_at": "2026-09-29T02:00:00Z",
+  "rows": 366,
+  "sha256": "54d43177e6c2bb27e21087a89732a323b3392c99e62e76525a1c4c96c8a4d898",
+  "exported_at": "2026-09-29T03:51:08.215910+00:00",
+  "definition": "Recorded 1-second execution candles during this round. Missing seconds are not synthesized; source completeness is unverified. This frozen sample may differ from later corrections.",
+  "sources": [
+    {
+      "outcome": "Up",
+      "url": "https://omens.market/v1/tokens/16211448979586365587295472182394623296867804328856077340386447759254997567646/candles?interval=1s&limit=1000",
+      "as_of": "2026-09-29T03:51:06.441Z",
+      "dataset_version": "polymarket-ws-observed-v1",
+      "history": {
+        "bar_limit": 1000,
+        "has_older": false,
+        "live_from_ms": null,
+        "minimum_source_shares": null,
+        "recovery": "not_backfilled",
+        "recovery_from_ms": null,
+        "source": "live_observations",
+        "source_completeness": "unverified",
+        "timestamp_basis": "execution_event_time",
+        "upgrade_required": false
+      },
+      "coverage": "source completeness unverified",
+      "gaps": [],
+      "quote_unit": "source collateral",
+      "volume_unit": "shares",
+      "trade_count_semantics": "observed_executions"
+    },
+    {
+      "outcome": "Down",
+      "url": "https://omens.market/v1/tokens/26891749070412319890316348940768096645790671846759052868386642892078824761471/candles?interval=1s&limit=1000",
+      "as_of": "2026-09-29T03:51:07.714Z",
+      "dataset_version": "polymarket-ws-observed-v1",
+      "history": {
+        "bar_limit": 1000,
+        "has_older": false,
+        "live_from_ms": null,
+        "minimum_source_shares": null,
+        "recovery": "not_backfilled",
+        "recovery_from_ms": null,
+        "source": "live_observations",
+        "source_completeness": "unverified",
+        "timestamp_basis": "execution_event_time",
+        "upgrade_required": false
+      },
+      "coverage": "source completeness unverified",
+      "gaps": [
+        {
+          "detected_at": "2026-09-29T01:55:45.754Z",
+          "ends_at": "2026-09-29T01:55:48.566Z",
+          "issue_id": "ba067486a1f71b4aea00b045aef14d83bad94e8b5f201a258b3919688e0a29e9",
+          "reason": "source_connection_gap",
+          "repair_state": "unrepaired",
+          "source": "polymarket",
+          "source_issue_ids": [
+            "d2dae26be4a74f3699d181120d0bfc3814c0bb88d70d8f1589da68a24dc609e0"
+          ],
+          "starts_at": "2026-09-29T01:55:45.540Z",
+          "token_id": "26891749070412319890316348940768096645790671846759052868386642892078824761471"
+        },
+        {
+          "detected_at": "2026-09-29T01:56:23.632Z",
+          "ends_at": "2026-09-29T01:56:26.715Z",
+          "issue_id": "0fcdd355400d2ddb0dfbe1f630edbde6e6f4db279f6528abda92964593d55412",
+          "reason": "source_connection_gap",
+          "repair_state": "unrepaired",
+          "source": "polymarket",
+          "source_issue_ids": [
+            "01d3e57be91da0ea777019d5f65c261dee46d3bcdabf047e71f2589a802c54fe"
+          ],
+          "starts_at": "2026-09-29T01:56:23.437Z",
+          "token_id": "26891749070412319890316348940768096645790671846759052868386642892078824761471"
+        },
+        {
+          "detected_at": "2026-09-29T01:58:31.814Z",
+          "ends_at": "2026-09-29T01:58:34.986Z",
+          "issue_id": "ebc3b2a23a5c26e2534411326c1dddf98b0875bdc860b935b38a15ccef6b38f8",
+          "reason": "source_connection_gap",
+          "repair_state": "unrepaired",
+          "source": "polymarket",
+          "source_issue_ids": [
+            "79dc3ec6a345f63d965c50705d6f1ae158c6431220ee41bc887610fe8e86366b"
+          ],
+          "starts_at": "2026-09-29T01:58:31.576Z",
+          "token_id": "26891749070412319890316348940768096645790671846759052868386642892078824761471"
+        }
+      ],
+      "quote_unit": "source collateral",
+      "volume_unit": "shares",
+      "trade_count_semantics": "observed_executions"
+    }
+  ]
+}
