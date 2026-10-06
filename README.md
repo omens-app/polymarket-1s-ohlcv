@@ -1,5 +1,7 @@
 # Polymarket 1s OHLCV Dataset & Python Examples
 
+[![Validate OHLCV sample](https://github.com/omens-app/polymarket-1s-ohlcv/actions/workflows/validate-sample.yml/badge.svg)](https://github.com/omens-app/polymarket-1s-ohlcv/actions/workflows/validate-sample.yml)
+
 A reproducible sample of trade-derived **1-second Polymarket OHLCV candles**, provided by [Omens](https://omens.market/polymarket-charts). Explore [live Polymarket 1s OHLCV charts](https://omens.market/polymarket-charts) and the methodology behind them.
 
 The sample covers BTC Up/Down market **5060604**, September 29, 2026, **01:55–02:00 UTC**. It contains **366 candles**, with Up and Down kept as separate outcome tokens. No account, API key or Python package installation is needed to inspect it.
